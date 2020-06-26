@@ -147,6 +147,7 @@ Readability.prototype = {
   // removed by readability when put into paragraphs, so we ignore them here.
   PHRASING_ELEMS: [
     // "CANVAS", "IFRAME", "SVG", "VIDEO",
+    "SVG", "CANVAS",
     "ABBR", "AUDIO", "B", "BDO", "BR", "BUTTON", "CITE", "CODE", "DATA",
     "DATALIST", "DFN", "EM", "EMBED", "I", "IMG", "INPUT", "KBD", "LABEL",
     "MARK", "MATH", "METER", "NOSCRIPT", "OBJECT", "OUTPUT", "PROGRESS", "Q",
